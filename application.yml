@@ -25,7 +25,6 @@ eureka:
     nonSecurePort: ${cf.instance.port}
 
 ---
----
 logging:
   level:
      io:
