@@ -138,7 +138,7 @@ eureka:
 logging:
   level:
      io:
-        spring.cloud.samples.fortuneteller.fortuneservice: INFO
+        spring.cloud.samples.fortuneteller.fortuneservice: DEBUG
         pivotal: DEBUG
      org:
         springframework:
