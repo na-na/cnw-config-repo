@@ -9,8 +9,6 @@ eureka:
       
 foo: bar
 
-greeting:"You are running locally"
-
 fortune:
   messages:
     - "People are naturally attracted to you."
@@ -68,8 +66,6 @@ eureka:
   instance:
     hostname: ${vcap.application.uris[0]}
     nonSecurePort: 80
-    
-greeting:"You are running in the cloud"    
     
 fortune:
   messages:
@@ -142,7 +138,7 @@ eureka:
 logging:
   level:
      io:
-        spring.cloud.samples.fortuneteller.fortuneservice: DEBUG
+        spring.cloud.samples.fortuneteller.fortuneservice: INFO
         pivotal: DEBUG
      org:
         springframework:
